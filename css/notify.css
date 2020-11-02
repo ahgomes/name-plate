@@ -1,0 +1,157 @@
+.notify {
+    position: fixed;
+    bottom: 0;
+    padding: 0 0;
+    width: 330px;
+    list-style-type: none;
+    z-index: 1000000;
+}
+
+.notify.right {
+    right: 10px;
+}
+
+.notify.left {
+    left: 7px;
+}
+
+.notify.center{
+    left: calc(50% - 166px);
+}
+
+.notify li {
+    display: table;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #555;
+    font-size: 16.2px;
+    font-weight: 400;
+    padding: 20px;
+    border: 2px solid rgba(221, 221, 221, .62);
+    border-radius: 2.55px;
+    box-shadow: 3px 3px rgba(0, 0, 0, .15);
+    width: 285px;
+    z-index: 1000000;
+    transform: rotateX(90deg) scale(1);
+    transform-origin: 50% 10px;
+    -webkit-transform: rotateX(90deg) scale(1);
+    -webkit-transform-origin: 50% 10px;
+    opacity: 1;
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+}
+
+.notify b {
+    display: inline-block;
+    font-weight: 400;
+    padding: 5px 0;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    max-width: 285px;
+}
+
+.notify button {
+    float: right;
+    //margin-top: -5px;
+    background: none;
+    border: none;
+    font-size: 16.2px;
+    font-weight: 700;
+    height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+.btn button {
+    color: #2e98ee;
+    padding-left: 100px;
+}
+
+.notify button:hover {
+    color: #333 !important;
+}
+
+.yesorno div {
+    display: inline;
+    padding-left: 100px;
+}
+
+.no {
+    color: #ff5a44 !important;
+}
+
+.yes {
+    color: #6ecc76 !important;
+}
+
+.typeable {
+    height: 60px;
+}
+
+.typeable button {
+    margin-top: 15px;
+    color: #ffcf00;
+}
+
+.typeable input {
+    float: left;
+    margin-top: 15px;
+    color: #777;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 16.2px;
+    font-weight: 400;
+    padding: 0 5px 5px;
+    width: 190px;
+    transition: all 300ms;
+}
+
+.typeable input:focus {
+    border-color: #555;
+    color: #555;
+    outline: none;
+}
+
+.typeable input::placeholder {
+    color: #ddd;
+    opacity: 1;
+}
+
+.rude {
+    border-color: #e63232 !important;
+    background: #e63232 !important;
+    color: #fff !important;
+}
+
+.rude button {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.rude button:hover {
+    color: #fff !important;
+}
+
+.rude input {
+    border-color: rgba(255, 255, 255, 0.75) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.rude input:focus {
+    border-color: #fff !important;
+    color: #000 !important;
+}
+
+.rude input::placeholder {
+    border-color: rgba(255, 255, 255, 0.85) !important;
+    color: rgba(255, 255, 255, 0.35) !important;
+}
